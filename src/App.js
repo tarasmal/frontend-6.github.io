@@ -52,9 +52,10 @@ function App() {
 
 
   }, []);
-  console.log(data)
+
   return (
     <div className="App">
+
         <div className={'data-container'}>
             {
                 data.map(item =>
